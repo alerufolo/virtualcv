@@ -1,0 +1,188 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease .5s;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+/**menu de navegacion*/
+header nav {
+  background-color: rgb(187, 229, 240);
+  transition: all ease .6s;
+  }
+
+  header nav ul {
+  list-style: none;
+  overflow: hidden;
+  }
+
+    header nav ul li {
+      float: right;
+      }
+
+      header nav ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 20px;
+
+      }
+
+      header nav ul li a:hover {
+        background-color: rgb(48, 85, 73);
+        color: bisque;
+        } 
+
+/** menu fixed*/
+
+.menu-fixed {
+  position:fixed;
+  z-index:1000;
+  top:0;
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(0,0,0,.5);
+}
+
+.menu-fixed ul li a {
+  padding: 10px 20px;
+}
+
+/** titulos*/
+
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: .3rem;
+  padding: 10px 20px;
+}
+
+h3 {
+  padding: 10px;
+}
+.titlecv {
+  background-color: azure;
+  opacity: .5;
+  }
+
+  /**bio*/
+  #bio {
+    text-align: justify;
+  } 
+
+  #foto {
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0, .5)
+  }
+
+  /** secciones*/ 
+
+.secciones1 {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0px;
+  line-height: 30px;
+}
+.secciones2 {
+  background-color: rgb(199, 199, 199);
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+/** columnas*/ 
+
+.column1 {
+    float: left;
+    width: 60%;
+    text-align: justify;
+    padding: 20px;
+  }
+
+.column2 {
+    float: left;
+    width: 40%;
+    text-align: justify;
+    padding: 20px;
+  }
+
+.column3 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+  }
+
+.column4 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+  }
+
+  
+/** finaliza sección columnas */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/** responsive, de 1 a 2 columnas */
+@media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+  }
+ 
+    .column2 {
+      width: 100%;
+  }
+  .column3 {
+    width: 100%;
+}
+
+  .column4 {
+    width: 100%;
+}
+}
+
+/** formulario de contacto*/
+#contacto {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+.input {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+  }
+
+.input2 {
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+  }
+
+#boton {
+  background-color: rgb(163, 168, 189);
+  
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  
+}
+
+/**footer*/
+footer {
+  text-align: left;
+  padding: 50px;
+  background-color: grey;
+  color: rgb(0, 0, 0);
+}

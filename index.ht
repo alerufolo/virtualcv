@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Alejandro Rúfolo</title>
+   
+    <!-- ícono pestaña web -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Alejandro Rúfolo" />
+    <meta property="og:type" content="Página Web" />
+    <meta property="og:url" content="http://www.alejandrorufolo.musica.ar" />
+    <meta property="og:image" content="fotos\foto2.JPG" />
+    <meta property="og:description" content="Sitio web del músico y docente Alejandro Rúfolo" />
+
+    <!-- Tipografia google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+
+</head>
+
+<body>
+
+    <!-- Menú navegación -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand">Alejandro Rúfolo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bio">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" role="button" aria-expanded="false" href="#multimedia" class="drop-text">Multimedia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                  </li>
+              </li>
+              <a href="#docencia" class="drop-text">Docencia</a>
+        <a href="#download" class="drop-text">Descargas</a> 
+        <a href="#contacto">Contacto</a>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+    <!-- cierra menú navegación -->
+    <nav>
+    <a href="index.html">Inicio</a>
+        <a href="#bio">Bio</a>
+        <a href="#multimedia" class="drop-text">Multimedia</a>
+        <a href="#docencia" class="drop-text">Docencia</a>
+        <a href="#download" class="drop-text">Descargas</a> 
+        <a href="#contacto">Contacto</a>
+    </nav>   
+
+     <h1>Alejandro Rúfolo</h1>
+    <h2>Músico y Docente</h2>
+  
+    <p>Fecha de nacimiento: 6 de noviembre de 1984</p>
+    <p>Correo: alerufolo@gmail.com</p>
+    <p>Teléfono: 1168680027</p>
+    <p>Página Web: <a href="https://alejandrorufolo.musica.ar/">alejandrorufolo.musica.ar</a> </p>
+
+    <section id="bio">
+
+        <div class="container text-justify">
+            <div class="row align-items-start">
+              <div class="col">
+                <h3>Sobre mi...</h3>
+                    <p>Nací en el año 1984, en el barrio de Caseros. Afortunadamente crecí rodeado de música, de canciones y de instrumentos. Fue mi abuela quién sembró en mí la primer semilla. Todavía recuerdo las clases que semanalmente ella me brindaba. Hoy, a casi veinticinco de años de aquella siembra, florece cada vez más mi amor hacia la música.</p>
+                    <p>Durante la etapa de la escuela secundaria, participé del coro “Voces Nuevas”, dirigido por el maestro Diego Maldonado. Continué mi formación en el Conservatorio “Alberto Ginastera”, del cual egresé en el año 2009 como Profesor de Música con orientación en Guitarra. Realicé estudios también de manera particular.</p> 
+                    <p>Algunos de mis maestros son y han sido, Eduardo Frassón, Oscar Vázquez Paz, Carlos Moscardini, Juan Falú, Carlos Calvo, Pepe Luna, Lautaro Toscano, Jorge Jewsbury, Andrés Pilar, Pablo Fraguela, Sebastián Henriquez, entre otros…</p>
+                    <p>En todos estos años formé parte de numerosos proyectos musicales en formato solista, guitarrista acompañante, dúo, banda, coral, orquesta, comparsa. Actualmente transito el hermoso e inmenso universo de la música popular y folclórica. Participo de agrupaciones musicales en diversos formatos, en las cuales ejecuto, además de la guitarra, otros instrumentos de la familia de las cuerdas como el charango y el tres cubano.</p> 
+                    <p>Participé en elencos teatrales con los que realizamos numerosas obras musicales propias para los cuales tuve el agrado de componer la música original.</p>
+                    <p>Compongo mi música y disfruto de arreglar e interpretar repertorio variado de grandes artistas, conocidos y anónimos.</p>
+                    <p>Continúo mi formación en la Licenciatura en Música Argentina de la UNSaM.</p>
+              </div>
+              <div class="col">
+                <img src="fotos\foto1.png" alt="Foto de Alejandro" width="100%">
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+        
+           <div class="column1">
+
+                <div id="bio">
+                    <h3>Sobre mi...</h3>
+                    <p>Nací en el año 1984, en el barrio de Caseros. Afortunadamente crecí rodeado de música, de canciones y de instrumentos. Fue mi abuela quién sembró en mí la primer semilla. Todavía recuerdo las clases que semanalmente ella me brindaba. Hoy, a casi veinticinco de años de aquella siembra, florece cada vez más mi amor hacia la música.</p>
+                    <p>Durante la etapa de la escuela secundaria, participé del coro “Voces Nuevas”, dirigido por el maestro Diego Maldonado. Continué mi formación en el Conservatorio “Alberto Ginastera”, del cual egresé en el año 2009 como Profesor de Música con orientación en Guitarra. Realicé estudios también de manera particular.</p> 
+                    <p>Algunos de mis maestros son y han sido, Eduardo Frassón, Oscar Vázquez Paz, Carlos Moscardini, Juan Falú, Carlos Calvo, Pepe Luna, Lautaro Toscano, Jorge Jewsbury, Andrés Pilar, Pablo Fraguela, Sebastián Henriquez, entre otros…</p>
+                    <p>En todos estos años formé parte de numerosos proyectos musicales en formato solista, guitarrista acompañante, dúo, banda, coral, orquesta, comparsa. Actualmente transito el hermoso e inmenso universo de la música popular y folclórica. Participo de agrupaciones musicales en diversos formatos, en las cuales ejecuto, además de la guitarra, otros instrumentos de la familia de las cuerdas como el charango y el tres cubano.</p> 
+                    <p>Participé en elencos teatrales con los que realizamos numerosas obras musicales propias para los cuales tuve el agrado de componer la música original.</p>
+                    <p>Compongo mi música y disfruto de arreglar e interpretar repertorio variado de grandes artistas, conocidos y anónimos.</p>
+                    <p>Continúo mi formación en la Licenciatura en Música Argentina de la UNSaM.</p>
+                </div>
+
+            </div>
+
+            <div class="column2">
+              
+                <img src="fotos\foto1.png" alt="Foto de Alejandro" width="100%">
+
+            </div>
+    </section>        
+
+    <section id="multimedia">
+
+        <h1>Multimedia</h1>
+
+           <!-- videos insertados desde Youtube  -->
+           <iframe width="500" height="315" src="https://www.youtube.com/embed/A5Nvbf_Ka9o" 
+           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+           encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+   
+           <iframe width="500" height="315" src="https://www.youtube.com/embed/VT_Vue8g5AA" 
+           title="YouTube video player" frameborder="0" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+           web-share" allowfullscreen></iframe>
+
+
+            <img src="fotos\foto2.jpg" alt="Foto de Alejandro" width="500px">
+            <img src="fotos\foto3.jpg" alt="Foto de Alejandro" width="500px">
+            <img src="fotos\foto4.jpg" alt="Foto de Alejandro" width="500px">
+            <img src="fotos\foto5.jpg" alt="Foto de Alejandro" width="500px">
+            <img src="fotos\foto6.jpg" alt="Foto de Alejandro" width="500px">
+            <img src="fotos\foto7.jpg" alt="Foto de Alejandro" width="500px">
+    
+     </section>
+
+    <section id="contacto">
+    
+    <h2>Dejame tu mensaje así puedo contactarte...</h2>   
+    
+            <form action="action_page.php" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="ingresá tu nombre" required>
+                </div>
+                <div>
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email" id="e-mail" name="e-mail" placeholder="ingresá tu e-mail" required> 
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <input type="text" id="mensaje" name="mensaje" placeholder="ingresá tu mensaje" required>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+       
+    </section>
+    
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@mail.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+    <footer id="footer">
+
+        Desarrollo: Alejandro Rúfolo
+        
+    </footer>
+
+</body>
+</html>
