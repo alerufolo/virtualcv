@@ -67,6 +67,7 @@ h2 {
 h3 {
   padding: 10px;
 }
+
 .titlecv {
   background-color: azure;
   opacity: .5;
@@ -80,6 +81,19 @@ h3 {
   #foto {
     border-radius: 2px;
     box-shadow: 2px 2px 0px 0px rgb(0, 0, 0, .5)
+  }
+
+  /**cv*/
+
+  .infocv {
+    
+    padding: 5px;
+  }
+
+  .infocv:hover {
+   background-color: rgb(188, 212, 203);
+   border: 1px solid rgb(160, 190, 179);
+   border-radius: 4px;
   }
 
   /** secciones*/ 
@@ -115,14 +129,14 @@ h3 {
     float: left;
     width: 50%;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
   }
 
 .column4 {
     float: left;
     width: 50%;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
   }
 
   
