@@ -13,8 +13,7 @@ body {
 
 /**menu de navegacion*/
 header nav {
-  background-color: rgb(187, 229, 240);
-  transition: all ease .6s;
+  background-color: rgb(103, 196, 180);
   }
 
   header nav ul {
@@ -35,7 +34,7 @@ header nav {
       }
 
       header nav ul li a:hover {
-        background-color: rgb(48, 85, 73);
+        background-color: rgb(74, 141, 137);
         color: bisque;
         } 
 
@@ -79,8 +78,8 @@ h3 {
   } 
 
   #foto {
-    border-radius: 5px;
-    box-shadow: 0px 1px 1px rgb(0, 0, 0, .5)
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px 0px rgb(0, 0, 0, .5)
   }
 
   /** secciones*/ 
@@ -161,23 +160,23 @@ h3 {
 .input {
     width: 100%;
     text-align: left;
-    padding: 8px;
+    padding: 13px;
   }
 
 .input2 {
     width: 100%;
     text-align: left;
-    padding: 50px;
+    padding: 30px;
   }
 
 #boton {
   background-color: rgb(163, 168, 189);
-  
   padding: 10px;
   border-radius: 10px;
   justify-content: center;
-  
-}
+
+  }
+
 
 /**footer*/
 footer {
