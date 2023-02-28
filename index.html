@@ -13,6 +13,10 @@
     <!-- Tipografia google-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 
+    <!-- ícono menu responsive -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 <body>
@@ -21,7 +25,9 @@
     <header>
 
 <!-- Menú -->
-            <nav class="menu">
+            <nav class="menu" id="header">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
                  <ul>
                     <li><a href="#contacto">Contacto</a></li>
                     <li><a href="#cv">CV</a></li>
@@ -184,7 +190,7 @@
     
     <h1>Dejame tu mensaje así puedo contactarte...</h1>   
     
-            <form action="gracias.html" method="post">
+            <form action="contacto.php" method="post">
 
                 <div class="row">
                     <div class="column3">
